@@ -80,7 +80,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>sprinng-boot-starter-security</artifactId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>2.1.1.RELEASE</version>
         </dependency>
     </dependencies>
 
@@ -103,6 +104,7 @@
                     </resources>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
